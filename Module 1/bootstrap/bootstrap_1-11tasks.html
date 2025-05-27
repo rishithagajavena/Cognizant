@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap 5 Exercises</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+    <section class="mb-5">
+      <h2 class="mb-3">Exercise 1.1: Bootstrap 5 via CDN</h2>
+      <h3 class="text-primary text-center">Bootstrap 5 via CDN</h3>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="mb-3">Exercise 1.2: Setup with Downloaded Bootstrap</h2>
+      <h3 class="text-success">Local Bootstrap Files</h3>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="mb-3">Exercise 2.2: Bootstrap JavaScript Bundle Inclusion</h2>
+      <h3>Bootstrap JavaScript Included</h3>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="mb-3">Exercise 3.1: Responsive Grid Layout</h2>
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 bg-light border p-3">Column 1</div>
+        <div class="col-12 col-md-6 col-lg-4 bg-light border p-3">Column 2</div>
+        <div class="col-12 col-md-6 col-lg-4 bg-light border p-3">Column 3</div>
+      </div>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="mb-3">Exercise 4.1: Two-Column Layout</h2>
+      <div class="row">
+        <div class="col-md-3 bg-secondary text-white p-3">Sidebar</div>
+        <div class="col-md-9 bg-light p-3">Main Content</div>
+      </div>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="mb-3">Exercise 4.2: Four-Column Layout</h2>
+      <div class="row">
+        <div class="col-sm-3 bg-info p-2">Col 1</div>
+        <div class="col-sm-3 bg-warning p-2">Col 2</div>
+        <div class="col-sm-3 bg-success p-2">Col 3</div>
+        <div class="col-sm-3 bg-danger p-2">Col 4</div>
+      </div>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="mb-3">Exercise 5.1: Centered Content</h2>
+      <div class="row justify-content-center align-items-center" style="height: 200px;">
+        <div class="col-6 text-center bg-light border">Centered Box</div>
+      </div>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="mb-3">Exercise 5.2: Reorder Columns</h2>
+      <div class="row">
+        <div class="col-md-6 order-md-2 bg-primary text-white">Second</div>
+        <div class="col-md-6 order-md-1 bg-secondary text-white">First</div>
+      </div>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="mb-3">Exercise 6.1: Responsive Navbar Using Flex</h2>
+      <nav class="d-flex flex-column flex-md-row bg-dark text-white p-3">
+        <a href="#" class="text-white me-md-3">Home</a>
+        <a href="#" class="text-white me-md-3">About</a>
+        <a href="#" class="text-white">Contact</a>
+      </nav>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="mb-3">Exercise 6.2: Flex Utilities in Card</h2>
+      <div class="card d-flex flex-row justify-content-between align-items-center p-3">
+        <div>Left</div>
+        <div>Right</div>
+      </div>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="mb-3">Exercise 7.1: Typography Utilities</h2>
+      <h1 class="display-1">Display 1</h1>
+      <p class="lead">Lead paragraph</p>
+      <p class="text-muted">Muted text</p>
+      <p class="fw-bold">Bold text</p>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="mb-3">Exercise 7.2: Text Transformations</h2>
+      <p class="text-uppercase">uppercase</p>
+      <p class="text-lowercase">LOWERCASE</p>
+      <p class="text-capitalize">capitalize each word</p>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="mb-3">Exercise 8.1: Registration Form</h2>
+      <form>
+        <div class="mb-3">
+          <label class="form-label">Name</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Email</label>
+          <input type="email" class="form-control">
+        </div>
+        <div class="form-check mb-3">
+          <input class="form-check-input" type="checkbox">
+          <label class="form-check-label">Subscribe</label>
+        </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text">@</span>
+          <input type="text" class="form-control" placeholder="Username">
+        </div>
+        <button type="submit" class="btn btn-primary">Register</button>
+      </form>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="mb-3">Exercise 8.2: Floating Login Form</h2>
+      <form class="form-floating">
+        <input type="email" class="form-control mb-2" id="floatingEmail" placeholder="name@example.com">
+        <label for="floatingEmail">Email address</label>
+      </form>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="mb-3">Exercise 9.1: Button Variants</h2>
+      <button class="btn btn-primary">Primary</button>
+      <button class="btn btn-secondary">Secondary</button>
+      <button class="btn btn-outline-success">Outline</button>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="mb-3">Exercise 9.2: Button Groups and Toggles</h2>
+      <div class="btn-group" role="group">
+        <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+        <label class="btn btn-outline-primary" for="btncheck1">Toggle 1</label>
+      </div>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="mb-3">Exercise 10.1: Responsive Navbar</h2>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Logo</a>
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            </ul>
+            <form class="d-flex ms-auto">
+              <input class="form-control" type="search" placeholder="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="mb-3">Exercise 10.2: Tabs and Pills</h2>
+      <ul class="nav nav-tabs">
+        <li class="nav-item"><a class="nav-link active" href="#">Tab 1</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Tab 2</a></li>
+      </ul>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="mb-3">Exercise 11.1: Profile Card</h2>
+      <div class="card" style="width: 18rem;">
+        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" class="card-img-top" alt="Profile image">
+        <div class="card-body">
+          <h5 class="card-title">Rishitha</h5>
+          <p class="card-text">Web Developer</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="mb-3">Exercise 11.2: Media Object</h2>
+      <div class="media d-flex align-items-start">
+        <img src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png" class="me-3" style="width:64px;" alt="Avatar">
+        <div class="media-body">
+          <h5>Media Heading</h5>
+          <p>Some content next to the image.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AJAX Registration</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    label { display: block; margin-top: 10px; }
+    .status { margin-top: 15px; font-weight: bold; }
+    .success { color: green; }
+    .error { color: red; }
+  </style>
+</head>
+<body>
+  <h1>Register for Event</h1>
+
+  <form id="register-form">
+    <label>
+      Name:
+      <input type="text" name="name" required />
+    </label>
+    <label>
+      Email:
+      <input type="email" name="email" required />
+    </label>
+    <label>
+      Event:
+      <select name="event" required>
+        <option value="">--Select Event--</option>
+        <option value="Yoga Retreat">Yoga Retreat</option>
+        <option value="Tech Summit">Tech Summit</option>
+        <option value="Art Show">Art Show</option>
+      </select>
+    </label>
+    <button type="submit">Submit</button>
+  </form>
+
+  <div id="status-message" class="status"></div>
+
+  <!-- Link JS -->
+  <script src="twelfthtask.js"></script>
+</body>
+</html>

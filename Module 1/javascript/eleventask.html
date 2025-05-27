@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event Registration</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    label { display: block; margin-top: 10px; }
+    .error { color: red; font-size: 0.9em; }
+    .success { color: green; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Register for an Event</h1>
+
+  <form id="registration-form">
+    <label>
+      Name:
+      <input type="text" name="name">
+      <span class="error" id="name-error"></span>
+    </label>
+
+    <label>
+      Email:
+      <input type="email" name="email">
+      <span class="error" id="email-error"></span>
+    </label>
+
+    <label>
+      Select Event:
+      <select name="event">
+        <option value="">-- Choose an event --</option>
+        <option value="Yoga Retreat">Yoga Retreat</option>
+        <option value="Jazz Night">Jazz Night</option>
+        <option value="Code Fest">Code Fest</option>
+      </select>
+      <span class="error" id="event-error"></span>
+    </label>
+
+    <button type="submit">Register</button>
+    <div class="success" id="success-message"></div>
+  </form>
+
+  <!-- Connect JavaScript -->
+  <script src="eleventask.js"></script>
+</body>
+</html>
