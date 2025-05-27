@@ -1,0 +1,3 @@
+module comgreetings {
+    requires comutils;
+}

@@ -1,0 +1,3 @@
+module comutils {
+    exports utils;
+}
